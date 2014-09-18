@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5568C1A017B9D5C200A86A87 /* QuotesList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5568C19F17B9D5C200A86A87 /* QuotesList.plist */; };
+		0822AF0E19CB939900BAE22D /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0822AF0D19CB939900BAE22D /* .gitignore */; };
 		5568C19D17B9B97300A86A87 /* Quote.m in Sources */ = {isa = PBXBuildFile; fileRef = 5568C19C17B9B97300A86A87 /* Quote.m */; };
+		5568C1A017B9D5C200A86A87 /* QuotesList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5568C19F17B9D5C200A86A87 /* QuotesList.plist */; };
 		55E52A4C17B9B15800088960 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E52A4B17B9B15800088960 /* Foundation.framework */; };
 		55E52A4E17B9B15800088960 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E52A4D17B9B15800088960 /* CoreGraphics.framework */; };
 		55E52A5017B9B15800088960 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E52A4F17B9B15800088960 /* UIKit.framework */; };
@@ -40,9 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5568C19F17B9D5C200A86A87 /* QuotesList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = QuotesList.plist; sourceTree = "<group>"; };
+		0822AF0D19CB939900BAE22D /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		5568C19B17B9B97300A86A87 /* Quote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quote.h; sourceTree = "<group>"; };
 		5568C19C17B9B97300A86A87 /* Quote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quote.m; sourceTree = "<group>"; };
+		5568C19F17B9D5C200A86A87 /* QuotesList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = QuotesList.plist; sourceTree = "<group>"; };
 		55E52A4817B9B15800088960 /* ControllingSource.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ControllingSource.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55E52A4B17B9B15800088960 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		55E52A4D17B9B15800088960 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -107,6 +109,7 @@
 		55E52A3F17B9B15800088960 = {
 			isa = PBXGroup;
 			children = (
+				0822AF0D19CB939900BAE22D /* .gitignore */,
 				55E52A5317B9B15800088960 /* ControllingSource */,
 				55E52A7917B9B15900088960 /* ControllingSourceTests */,
 				55E52A4A17B9B15800088960 /* Frameworks */,
@@ -276,6 +279,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0822AF0E19CB939900BAE22D /* .gitignore in Resources */,
 				55E52A6C17B9B15800088960 /* Images.xcassets in Resources */,
 				55E52A5817B9B15800088960 /* InfoPlist.strings in Resources */,
 				55E52A6117B9B15800088960 /* Main.storyboard in Resources */,

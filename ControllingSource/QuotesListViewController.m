@@ -72,6 +72,7 @@
     [self.tableView beginUpdates];
 }
 
+
 #pragma mark - Private Methods
 
 - (void)configureCell:(UITableViewCell *)cell atIndexPath:(NSIndexPath *)indexPath
